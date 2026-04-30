@@ -1,0 +1,10 @@
+body {
+    background-image: url("img/THING.png");
+    background-repeat: repeat;
+
+    /* CLAVE: evita el suavizado */
+    image-rendering: pixelated;
+
+    /* MUY importante: no escalar la imagen */
+    background-size: auto;
+}
