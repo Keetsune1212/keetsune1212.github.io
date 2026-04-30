@@ -1,5 +1,5 @@
 body {
-  background: url("img/THING.png") repeat;
+  background: url("img/TileBG.png") repeat;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
