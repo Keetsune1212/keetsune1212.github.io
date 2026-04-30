@@ -1,5 +1,24 @@
 body {
-  background: url("img/TileBG.png") repeat;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+    background-image: url("https://raw.githubusercontent.com/Keetsune1212/keetsune1212.github.io/refs/heads/main/img/TileBG.png");
+    background-repeat: repeat;
+    
+    
+    background-color: black;
+    color: white;
+
+    /* CLAVE: evita el suavizado */
+    image-rendering: pixelated;
+
+    a {
+            color: rgb(55, 255, 155);
+    }
+
+    /* Centering a main heading */
+    h1 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+     }
 }
